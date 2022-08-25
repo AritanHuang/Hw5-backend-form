@@ -10,4 +10,8 @@ img {
   height: auto;
   vertical-align: middle; }
 
+.nav {
+  max-width: 296px;
+  height: 100vh; }
+
 /*# sourceMappingURL=all.css.map */
