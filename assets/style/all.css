@@ -10,8 +10,36 @@ img {
   height: auto;
   vertical-align: middle; }
 
-.nav {
+.aside {
   max-width: 296px;
-  height: 100vh; }
+  height: 100vh;
+  padding-top: 40px;
+  padding-left: 32px; }
+  .aside h1 {
+    background-image: url(../images/logo-ANSWER.svg);
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 32px; }
+  .aside .nav-item {
+    margin-bottom: 20px;
+    border-left: 4px solid transparent; }
+    .aside .nav-item:hover {
+      border-left: 4px solid #198754; }
+    .aside .nav-item a:hover {
+      color: #198754 !important; }
+    .aside .nav-item a:focus {
+      color: #198754 !important;
+      border-left: 4px solid #198754; }
+  .aside .user {
+    margin-bottom: 32px; }
+    .aside .user li {
+      font-size: 14px; }
+  .aside .user-pic {
+    width: 40px;
+    height: 40px;
+    position: center center;
+    background-size: cover; }
 
 /*# sourceMappingURL=all.css.map */
