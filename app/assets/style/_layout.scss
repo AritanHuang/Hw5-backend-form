@@ -1,4 +1,42 @@
-.nav {
+.aside {
     max-width: 296px;
     height: 100vh;
+    padding-top: 40px;
+    padding-left: 32px;
+    h1 {
+        background-image: url(../images/logo-ANSWER.svg);
+        background-repeat: no-repeat;
+        text-indent: 101%;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-bottom: 32px;
+    }
+    .nav-item {
+        margin-bottom: 20px;
+        border-left: 4px solid transparent;
+        &:hover {
+            border-left: 4px solid $success;
+        }
+        a {
+            &:hover {
+                color: $success !important;
+            }
+            &:focus {
+                color: $success !important;
+                border-left: 4px solid $success;
+            }
+        }
+    }
+    .user {
+        margin-bottom: 32px;
+        li {
+            font-size: 14px;
+        }
+    }
+    .user-pic {
+        width: 40px;
+        height: 40px;
+        position: center center;
+        background-size: cover;
+    }
 }

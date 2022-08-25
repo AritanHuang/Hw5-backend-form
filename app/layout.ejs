@@ -19,21 +19,48 @@
 </head>
 
 <body>
-  <aside>
-    <ul class="nav flex-column bg-light">
+  <aside class="bg-light aside d-flex justify-content-between flex-column">
+    <ul class="nav flex-column">
+      <h1>ANSWER</h1>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
+        <a class="nav-link active link-dark fw-bold" aria-current="page" href="#"><span
+            class="material-icons align-middle me-3">
+            assessment
+          </span>Dashboard</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link link-dark fw-bold" href="#"><span class="material-icons align-middle me-3">
+            question_answer
+          </span>Question</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link link-dark fw-bold active" href="#"><span class="material-icons align-middle me-3">
+            assignment
+          </span>Assignment</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled">Disabled</a>
+        <a class="nav-link link-dark fw-bold" href="#"><span class="material-icons align-middle me-3">
+            video_library
+          </span>Course</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-dark fw-bold" href="#"><span class="material-icons align-middle me-3">
+            people
+          </span>Admin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link link-dark fw-bold" href="#"><span class="material-icons align-middle me-3">
+            settings
+          </span>settings</a>
       </li>
     </ul>
+    <div class="user list-unstyled d-flex align-items-center">
+      <div><img class="user-pic rounded-circle me-3" src="./assets/images/andychen.jpeg" alt="使用者頭像"></div>
+      <ul class="list-unstyled mb-0">
+        <li class="fw-bold mb-1">Andy Chen</li>
+        <li class="text-secondary">andy0401@mail.com</li>
+      </ul>
+    </div>
   </aside>
   <%- contents %>
 
