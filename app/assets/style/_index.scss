@@ -1,0 +1,46 @@
+.header {
+    min-width: 984px;
+    margin-bottom: 44px;
+    .title {
+        line-height: 33px;
+    }
+}
+.comment {
+    margin-bottom: 6px;
+    span {
+        font-size: 12px;
+    }
+}
+.content {
+    gap: 16px;
+    .show {
+        background: #f8f9fa;
+    }
+    .list-group {
+        min-width: 320px;
+    }
+    .comment-info,
+    .comment-title p:nth-child(2),
+    .card-header p:nth-child(1),
+    .comment-time {
+        font-size: 12px;
+    }
+    .commenter-pic {
+        display: block;
+        background-image: url(../images/emilywang.jpeg);
+        width: 40px;
+        height: 40px;
+        background-position: center center;
+        background-size: cover;
+    }
+    .card-content {
+        font-size: 14px;
+        line-height: 21px;
+        border-bottom: 1px solid #ced4da;
+        .fm-mono {
+            font-family: 'Roboto Mono', monospace;
+        }
+    }
+}
+
+// dropdown-toggle

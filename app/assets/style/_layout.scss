@@ -1,5 +1,5 @@
 .aside {
-    max-width: 296px;
+    min-width: 296px;
     height: 100vh;
     padding-top: 40px;
     padding-left: 32px;
@@ -21,11 +21,12 @@
             &:hover {
                 color: $success !important;
             }
-            &:focus {
-                color: $success !important;
-                border-left: 4px solid $success;
-            }
         }
+    }
+    //jquery點擊效果
+    .active a {
+        color: $success !important;
+        border-left: 4px solid $success;
     }
     .user {
         margin-bottom: 32px;
@@ -39,4 +40,7 @@
         position: center center;
         background-size: cover;
     }
+}
+.main {
+    margin: 32px;
 }
