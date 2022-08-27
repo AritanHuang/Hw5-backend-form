@@ -14,14 +14,14 @@ $(document).ready(function () {
   $('.btn-reply').click(function (e) {
     e.preventDefault();
     $('.reply,.assignment-btn').addClass('d-none');
-    $('.card-content').removeClass('b-bottom');
+    $('.card-student').removeClass('b-bottom');
     $('.ckeditor').removeClass('d-none');
   }); //點擊cancel隱藏ckeditor套件
 
   $('.btn-cancel').click(function (e) {
     e.preventDefault();
     $('.reply,.assignment-btn').removeClass('d-none');
-    $('.card-content').addClass('b-bottom');
+    $('.card-student').addClass('b-bottom');
     $('.ckeditor').addClass('d-none');
   });
 }); //ckEditor套件
