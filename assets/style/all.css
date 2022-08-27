@@ -10,9 +10,27 @@ img {
   height: auto;
   vertical-align: middle; }
 
+.fz-12 {
+  font-size: 12px; }
+
+.b-bottom {
+  border-bottom: 1px solid #ced4da; }
+
+.me-32 {
+  margin-right: 32px; }
+
+.pe-33 {
+  padding-right: 33px; }
+
+.ps-32 {
+  padding-left: 32px; }
+
+.pointer {
+  cursor: pointer; }
+
 .aside {
   min-width: 296px;
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 40px;
   padding-left: 32px; }
   .aside h1 {
@@ -53,8 +71,6 @@ img {
 
 .comment {
   margin-bottom: 6px; }
-  .comment span {
-    font-size: 12px; }
 
 .content {
   gap: 16px; }
@@ -62,23 +78,19 @@ img {
     background: #f8f9fa; }
   .content .list-group {
     min-width: 320px; }
-  .content .comment-info,
-  .content .comment-title p:nth-child(2),
-  .content .card-header p:nth-child(1),
-  .content .comment-time {
-    font-size: 12px; }
   .content .commenter-pic {
     display: block;
-    background-image: url(../images/emilywang.jpeg);
     width: 40px;
-    height: 40px;
-    background-position: center center;
-    background-size: cover; }
+    height: 40px; }
   .content .card-content {
     font-size: 14px;
-    line-height: 21px;
-    border-bottom: 1px solid #ced4da; }
+    line-height: 21px; }
     .content .card-content .fm-mono {
       font-family: 'Roboto Mono', monospace; }
+  .content .ck-content {
+    border-bottom: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    min-height: 263px; }
 
 /*# sourceMappingURL=all.css.map */

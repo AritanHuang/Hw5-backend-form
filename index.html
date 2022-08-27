@@ -115,55 +115,56 @@
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
         </div>
-        <span class="lh-lg text-secondary">2 comments</span>
+        <span class="lh-lg text-secondary fz-12">2 comments</span>
     </div>
     <div class="content d-flex">
         <ul class="list-group">
-            <li href="#" class="show list-group-item list-group-item-action" aria-current="true">
-                <div class="comment-info text-dark d-flex justify-content-between">
+            <li class="pointer show list-group-item list-group-item-action" aria-current="true">
+                <div class="comment-info fz-12 text-dark d-flex justify-content-between">
                     <p class="lh-lg mb-1">Chapter Assignment 2</p>
                     <p class="lh-lg mb-1">4 hrs ago</p>
                 </div>
                 <div class="comment-title d-flex justify-content-between">
                     <p class="fw-bold text-dark mb-0">Please check this file…</p>
-                    <p class="lh-lg text-secondary mb-0">Emily Wang</p>
+                    <p class="lh-lg text-secondary mb-0 fz-12">Emily Wang</p>
                 </div>
             </li>
-            <li href="#" class="list-group-item list-group-item-action">
-                <div class="comment-info text-dark d-flex justify-content-between">
+            <li class="pointer list-group-item list-group-item-action">
+                <div class="fz-12 comment-info text-dark d-flex justify-content-between">
                     <p class="lh-lg mb-1">Chapter Assignment 1</p>
                     <p class="lh-lg mb-1">12 hrs ago</p>
                 </div>
                 <div class="comment-title d-flex justify-content-between">
                     <p class="fw-bold text-dark mb-0">My Homework</p>
-                    <p class="lh-lg text-secondary mb-0">David Xu</p>
+                    <p class="lh-lg text-secondary mb-0 fz-12">David Xu</p>
                 </div>
             </li>
-            <li href="#" class="list-group-item list-group-item-action">
-                <div class="comment-info text-dark d-flex justify-content-between">
+            <li class="pointer list-group-item list-group-item-action">
+                <div class="fz-12 comment-info text-dark d-flex justify-content-between">
                     <p class="lh-lg mb-1">Final Assignment</p>
                     <p class="lh-lg mb-1">18 hrs ago</p>
                 </div>
                 <div class="comment-title d-flex justify-content-between">
                     <p class="fw-bold text-dark mb-0">Have a problem with this…</p>
-                    <p class="lh-lg text-secondary mb-0">Tony Wei</p>
+                    <p class="lh-lg text-secondary mb-0 fz-12">Tony Wei</p>
                 </div>
             </li>
-            <li href="#" class="list-group-item list-group-item-action">
-                <div class="comment-info text-dark d-flex justify-content-between">
+            <li class="pointer list-group-item list-group-item-action">
+                <div class=" fz-12 comment-info text-dark d-flex justify-content-between">
                     <p class="lh-lg mb-1">Final Assignment</p>
                     <p class="lh-lg mb-1">19 hrs ago</p>
                 </div>
                 <div class="comment-title d-flex justify-content-between">
                     <p class="fw-bold text-dark mb-0">Did I do it right?</p>
-                    <p class="lh-lg text-secondary mb-0">Christina Lin</p>
+                    <p class="lh-lg text-secondary mb-0 fz-12">Christina Lin</p>
                 </div>
             </li>
         </ul>
-        <div class="card">
+        <!-- 卡片區塊 -->
+        <div class="card mb-3">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <div class="card-header-content">
-                    <p class="text-dark mb-0 lh-lg">Chapter Assignment 2 / HTML&CSS</p>
+                    <p class="fz-12 text-dark mb-0 lh-lg">Chapter Assignment 2 / HTML&CSS</p>
                     <p class="fw-bold mb-0">Please check this file for me, thanks!</p>
                 </div>
                 <span class="material-icons">
@@ -172,13 +173,13 @@
             </div>
             <div class="card-body">
                 <div class="message-info d-flex">
-                    <div class="commenter-pic rounded-circle"></div>
+                    <img class="commenter-pic rounded-circle" src="./assets/images/emilywang.jpeg"></img>
                     <ul class="card-info list-unstyled ms-2">
                         <li class="commenter fw-bold text-dark">Emily Wang</li>
-                        <li class="comment-time text-secondary lh-lg">10:38 AM (4 hours ago)</li>
+                        <li class="fz-12 comment-time text-secondary lh-lg">10:38 AM (4 hours ago)</li>
                     </ul>
                 </div>
-                <p class="card-content ms-5 text-dark">
+                <p class="card-content ms-5 text-dark b-bottom me-32">
                     Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the
                     following code the height of the <span class="text-success fm-mono">div</span> is bigger than the
                     height of
@@ -188,10 +189,59 @@
                     image?<br>
                     <a href="#" class="mt-3 mb-3 btn btn-light border" download="HW-2-David.zip">HW-2-David.zip</a>
                 </p>
+                <div class="reply">
+                    <div class="d-flex justify-content-between">
+                        <div class="message-info d-flex">
+                            <img class="commenter-pic rounded-circle" src="./assets/images/andychen.jpeg"></img>
+                            <ul class="card-info list-unstyled ms-2">
+                                <li class="commenter fw-bold text-dark">Andy Chen (You)</li>
+                                <li class="fz-12 comment-time text-secondary lh-lg">13:24 AM (1 hours ago)</li>
+                            </ul>
+                        </div>
+                        <div class="comment-icon ">
+                            <span class="material-icons me-4">
+                                star_border
+                            </span>
+                            <span class="material-icons">
+                                edit
+                            </span>
+                        </div>
+                    </div>
+                    <div class="card-content ms-5 text-dark me-32">
+                        <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line
+                            that
+                            a, b, c and d sit on. There is space below that line for the descenders you find on letters
+                            like
+                            g, j, p and q.</p>
+                        <p>You can:</p>
+                        <ul>
+                            <li>adjust the <span class="fm-mono text-success">vertical-align</span> of the image to
+                                position
+                                it
+                                elsewhere (e.g.
+                                the <span class="fm-mono text-success"></span>middle ) or 　</li>
+                            <li>change the <span class="fm-mono text-success"> display</span> so it isn’t inline.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ckeditor d-none">
+                <div class="editor" id="editor">
+                </div>
+                <div class="ckeditor-btn d-flex justify-content-end mb-3">
+                    <button type="button"
+                        class="btn-cancel btn btn-outline-success me-3 rounded-0 pt-2 pb-2 pe-33 ps-32">Cancel</button>
+                    <button type="button"
+                        class="btn-reply btn btn-success rounded-0 pt-2 pb-2 pe-33 ps-32 me-4">Reply</button>
+                </div>
             </div>
         </div>
-    </div>
 </section>
+<!-- 按鈕區塊 -->
+<div class="assignment-btn d-flex justify-content-end">
+    <button type="button" class="btn btn-outline-success me-3 rounded-0 pt-2 pb-2 pe-33 ps-32">Mark as read</button>
+    <button type="button" class="btn-reply btn btn-success rounded-0 pt-2 pb-2 pe-33 ps-32">Reply</button>
+</div>
     </main>
   </div>
   <!-- JavaScript Bundle with Popper -->
@@ -200,6 +250,7 @@
     crossorigin="anonymous"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
 
